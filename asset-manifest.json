@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/react-introduction/static/css/main.5f361e03.chunk.css",
-    "main.js": "/react-introduction/static/js/main.0bcb8e93.chunk.js",
-    "main.js.map": "/react-introduction/static/js/main.0bcb8e93.chunk.js.map",
+    "main.css": "/react-introduction/static/css/main.d498bfb3.chunk.css",
+    "main.js": "/react-introduction/static/js/main.72cdd6ff.chunk.js",
+    "main.js.map": "/react-introduction/static/js/main.72cdd6ff.chunk.js.map",
     "runtime-main.js": "/react-introduction/static/js/runtime-main.9af2a429.js",
     "runtime-main.js.map": "/react-introduction/static/js/runtime-main.9af2a429.js.map",
-    "static/js/2.8d75e3f5.chunk.js": "/react-introduction/static/js/2.8d75e3f5.chunk.js",
-    "static/js/2.8d75e3f5.chunk.js.map": "/react-introduction/static/js/2.8d75e3f5.chunk.js.map",
+    "static/css/2.35fcc229.chunk.css": "/react-introduction/static/css/2.35fcc229.chunk.css",
+    "static/js/2.8a4d4617.chunk.js": "/react-introduction/static/js/2.8a4d4617.chunk.js",
+    "static/js/2.8a4d4617.chunk.js.map": "/react-introduction/static/js/2.8a4d4617.chunk.js.map",
     "index.html": "/react-introduction/index.html",
-    "precache-manifest.6cedeae0df5234b247e717166fcc7fad.js": "/react-introduction/precache-manifest.6cedeae0df5234b247e717166fcc7fad.js",
+    "precache-manifest.73619739bfd6eed5d46b5a57f0203247.js": "/react-introduction/precache-manifest.73619739bfd6eed5d46b5a57f0203247.js",
     "service-worker.js": "/react-introduction/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/react-introduction/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.8d75e3f5.chunk.js.LICENSE.txt": "/react-introduction/static/js/2.8d75e3f5.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/react-introduction/static/media/logo.5d5d9eef.svg"
+    "static/css/2.35fcc229.chunk.css.map": "/react-introduction/static/css/2.35fcc229.chunk.css.map",
+    "static/css/main.d498bfb3.chunk.css.map": "/react-introduction/static/css/main.d498bfb3.chunk.css.map",
+    "static/js/2.8a4d4617.chunk.js.LICENSE.txt": "/react-introduction/static/js/2.8a4d4617.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9af2a429.js",
-    "static/js/2.8d75e3f5.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.0bcb8e93.chunk.js"
+    "static/css/2.35fcc229.chunk.css",
+    "static/js/2.8a4d4617.chunk.js",
+    "static/css/main.d498bfb3.chunk.css",
+    "static/js/main.72cdd6ff.chunk.js"
   ]
 }
