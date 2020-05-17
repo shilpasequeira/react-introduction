@@ -1,32 +1,21 @@
 import React from 'react';
 import { useState } from 'react';
-import { Button } from 'antd';
 import { Space, Card } from 'antd';
+import Checklist, { ChecklistProps } from './components/Checklist';
 
-interface HeaderProps {
-  title: string
-}
-const Header: React.FunctionComponent<HeaderProps> = ({title}) => {
-  return <div>{title}</div>
-}
+const defaultChecklistItems: ChecklistProps["items"] = [
+  { text: 'Task 1', checked: false },
+  { text: 'Task 2', checked: false },
+]
 
-function useCounter() {
-  const [counter, setCount] = useState<number>(0)
-  const decrement = () => { setCount(counter + 1) }
-  const increment = () => { counter > 0 && setCount(counter - 1) }
-
-  return [counter, decrement, increment] as const
-}
-
-const App: React.FunctionComponent = () => {
-  const [counter, increment, decrement] = useCounter();
+function App() {
+  const [checkListItems, setCheckListItems] = useState(defaultChecklistItems);
+  const updateCheckListItem: ChecklistProps["onChange"] = (item, index) => {
+    setCheckListItems(defaultChecklistItems.splice(index, 1, item))
+  }
 
   return (
-    <div className="App">
-      <Button type="primary" onClick={increment}>+</Button>
-      <span>{counter}</span>
-      <Button type="primary" onClick={decrement}>-</Button>
-    </div>
+    <Checklist items={defaultChecklistItems} onChange={updateCheckListItem} />
   );
 }
 
